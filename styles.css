@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: antiquewhite;
+    background-color: #06081a;
     padding: 0 30px; 
 
 }
@@ -28,37 +28,43 @@ header {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: #FF5733;
+    color: #9d6fc1;
 }
 
 .list {
     display: flex;
-    gap: 0.8em;
+    gap: 2em;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 li {
     list-style: none;
-    font-size: 18px;
+    font-size: 14px;
 }
+
+
+.redes  {
+    font-size: 22px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /*Main*/
-
-.acerca-imagen {
-    height: 300px;
-}
 
 .seccion-1 {
     display: flex;
     justify-content: center;
     gap: 1.5em;
-    background-color: rgb(255, 178, 63);
+    background-color: #06081a;
     margin: 0;
-    padding: 25px;
+    padding: 30px 50px 70px;
     flex-wrap: wrap;
 }
 
@@ -67,26 +73,71 @@ li {
     max-width: 500px;
 }
 
-.acerca-imagen {
-    display: flex;
-    justify-content: center;
+.acerca-imagen img{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.acerca-de-mi {
+    color: white;
 }
 
 .text-acerca {
-    display: flex;
+    color: #d1d5db;
 }
 
 .sec2-imagen {
+    height: 500px;
     width: 100%;
+    object-fit: cover;
+    background-color: #06081a;
+}
+
+/*Sección 3*/
+.seccion-3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 80px 20px 20px ;
+    background-color: #06081a;
+}
+
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    padding-bottom: 35px;
+}
+
+.img-proyecto {
+    height: 250px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 550px;
+    object-fit: cover;
+}
+
+.text-proyecto {
+    display: flex;
+    color: #d1d5db;
+    max-width: 100%;
 }
 
 /*Footer*/
 
 footer {
     padding: 15px 20px;
-    background-color: antiquewhite;
+    background-color: #06081a ;
 }
 
+h3 {
+    color: #9d6fc1;
+}
 .container-contacto {
     padding-left: 30px;
 }
@@ -96,3 +147,4 @@ a i.fa-solid.fa-heart.fixed {
     bottom: 30px;
     right: 30px;
 }
+
